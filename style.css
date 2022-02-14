@@ -1,0 +1,99 @@
+body{
+    background-color: indianred;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle1{
+    height: 10px;
+    width: 10px;
+    border: 5px solid green;
+    border-radius: 100px;
+    position: relative;
+}
+.circle2{
+    height: 00px;
+    width: 10px;
+    border: 5px solid green;
+    border-radius: 100px;
+    position: relative;
+}
+nav{
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 5px;
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+}
+li a{
+    display: block;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(24, 25, 26);
+    color: aqua;
+}
+table{
+    background-color: rgba(78, 17, 6, 0);
+    border: black;
+    width: 100%;
+    padding: 14px;
+}
+
+.video{
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+button{
+    font-size: 12;
+}
+.table1{
+    background-color: white;
+    table-layout: fixed;
+    width: 100%;
+}
+footer{
+    background-color: darksalmon;
+}
+form{
+    padding: 14px;
+    
+}
+input[type=text], input[type=email],select, textarea{
+    width: 25%;
+    padding: 12px;
+    border: 2px solid rgb(105, 102, 102);
+    border-radius: 6px;
+}
+label{
+    padding: 10px 10px 10px 0;
+    font-size: large;
+    display: inline-block;
+    
+}
+#myButton{
+    font-size: large;
+    width: 25%;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(48, 131, 48);
+    color: aliceblue;
+}
+p{
+    width: 75%;
+}
+.AboutMe{
+    background: url(/assets/images/bck.jpg);
+    color: white;
+}
