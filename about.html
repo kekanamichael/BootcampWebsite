@@ -5,6 +5,7 @@
     <title>about me</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <table>
@@ -15,68 +16,44 @@
                 </td>
                 <td>
                     <nav>
-                        <a href="index.html"> Home </a>
-                        <a href="#" target="_blank"> About Me </a>
-                        <a href="contacts.html" target="_blank"> Contact us </a>
+                        <a href="index.html" id="home"></a>
+                        <a href="#" target="_blank" id="about"></a>
+                        <a href="contacts.html" target="_blank" id="contacts"></a>
                     </nav>
                 </td>
             </tr>
         </table>
     </header>
+    <hr>
     <main class="AboutMe">
     <center><h1>About</h1>
-    <p> am a 22-year-old ambitious male who is interested in web development. 
-        I am a hard worker, self-motivated, goal-oriented individual who is always looking for a 
-        challenge to enhance my skills and knowledge. I like to interact with other people and adapt 
-        easily to different kinds of environment. I have good communication skills and I am also able to 
-        work different kinds of shifts and under pressure
-    </p>
+        <hr>
+    <table id="myTable">
+    </table>
+    <hr>
     <h3>Educational background</h3>
-    <p>
-        I am a final-year student, completing my National Diploma in Information 
-        Technology (Software Development) at Tshwane University of Technology. 
-        I hope to graduate with the average of over 70% later this year. 
-        One of the requirements for completion of the diploma is that I 
-        undergo six months experiential learning in the workplace.
-
+    <table id="edu">
+    </table>
+    <p id="eduTUT"> 
+        
     </p>
+    <hr>
     <h3>Previous project</h3>
-    <p>
-        While I was still at school, I worked on a system called grad 
-        work. This was a most valuable experience for me as I did 
-        Unified Modeling Language, Web development and database design 
-        and implementation. The system was to help graduates find jobs 
-        based on their qualification. This gave me the opportunity to 
-        enhance my programming skills and learn more. One of my special 
-        interests in the field is coding and data-base design
+    <p id="project">
+        
     </p>
+    <hr>
     <h3>My Skills include:</h3>
-    <ul>
-        <li>Programming Skills</li>
-        <li>C++, Oracle SQL, Linux</li>
-        <li>Database design and implementation skills using Oracle</li>
-        <li>System analysis and design</li>
-        <li>Planning skills</li>
-        <li>Problem solving skills</li>
-        <li>Communication skills</li>
-        <li>Project management skills</li>
+    <ul id="skills">
     </ul>    
 </center>
 </main>
 <footer>
-    <h3>Social media links</h3>
-    <ul>
-        <li>
-            <a href="https://web.facebook.com/profile.php?id=100006740205361" target="_blank">Facebook</a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/michaelkekan/?hl=en" target="_blank">Instagram</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/michael-kekana-382719221/" target="_blank">LinkedIn</a>
-        </li>
+    <h3 id="socialLinks"></h3>
+    <ul id="links">
     </ul> 
-    <p><b>Phone:</b> 071 645 5956</p>  
+    <p id="phone"></p>  
 </footer>
 </body>
+<script src="about.js"></script>
 </html>
